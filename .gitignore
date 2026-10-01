@@ -1,0 +1,17 @@
+# Local Netlify folder
+.netlify
+
+# Firebase service account keys (secrets, never commit)
+*firebase-adminsdk*.json
+*service-account*.json
+
+# Local dev data (real password hashes / account state, never commit)
+data/
+.local-data/
+
+# Dependencies
+node_modules/
+
+# Env files
+.env
+.env.*

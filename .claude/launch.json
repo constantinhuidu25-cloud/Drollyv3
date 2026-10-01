@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "drolly-local",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["local-server.js"],
+      "port": 8888
+    },
+    {
+      "name": "drolly-static",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["http-server", "-p", "8899"],
+      "port": 8899
+    }
+  ]
+}
